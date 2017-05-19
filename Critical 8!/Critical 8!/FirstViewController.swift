@@ -55,7 +55,7 @@ class FirstViewController: UIViewController {
     @IBAction func d100Click(_ sender: Any) {
         let res = Int(arc4random_uniform(100) + 1)
         rollRead.text = String(res)
-        dieRead.text = "100"
+        dieRead.text = "d100"
     }
 
     override func viewDidLoad() {

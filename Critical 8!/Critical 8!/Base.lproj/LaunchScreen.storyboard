@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="natural8" translatesAutoresizingMaskIntoConstraints="NO" id="jdJ-tE-d0T">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="transparent" translatesAutoresizingMaskIntoConstraints="NO" id="jdJ-tE-d0T">
                                 <rect key="frame" x="48" y="269" width="278" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -35,6 +35,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="natural8" width="678" height="679"/>
+        <image name="transparent" width="679" height="679"/>
     </resources>
 </document>

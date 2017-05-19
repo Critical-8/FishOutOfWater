@@ -9,6 +9,7 @@
 import UIKit
 
 class SecondViewController: UIViewController {
+    //ability Scores
     @IBOutlet weak var updateButton: UIButton!
     //Strength
     @IBOutlet weak var strScore: UITextField!
@@ -55,18 +56,31 @@ class SecondViewController: UIViewController {
         chaBonus -= 10
         chaBonus /= 2
         chaBon.text = String(chaBonus)
+        
+        dismissKeyboard()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //Looks for single or multiple taps.
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SecondViewController.dismissKeyboard))
+        
+        //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
+        //tap.cancelsTouchesInView = false
+        
+        view.addGestureRecognizer(tap)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+    }
 }
 
