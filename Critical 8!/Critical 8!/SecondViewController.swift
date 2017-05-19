@@ -9,7 +9,54 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    @IBOutlet weak var updateButton: UIButton!
+    //Strength
+    @IBOutlet weak var strScore: UITextField!
+    @IBOutlet weak var strBon: UILabel!
+    @IBOutlet weak var dexScore: UITextField!
+    @IBOutlet weak var dexBon: UILabel!
+    @IBOutlet weak var conScore: UITextField!
+    @IBOutlet weak var conBon: UILabel!
+    @IBOutlet weak var intScore: UITextField!
+    @IBOutlet weak var intBon: UILabel!
+    @IBOutlet weak var wisScore: UITextField!
+    @IBOutlet weak var wisBon: UILabel!
+    @IBOutlet weak var chaScore: UITextField!
+    @IBOutlet weak var chaBon: UILabel!
+    
+    //Update
+    @IBAction func updateScores(_ sender: Any) {
+        var strBonus:Int = (strScore.text! as NSString).integerValue
+        strBonus -= 10
+        strBonus /= 2
+        strBon.text = String(strBonus)
+        
+        var dexBonus:Int = (dexScore.text! as NSString).integerValue
+        dexBonus -= 10
+        dexBonus /= 2
+        dexBon.text = String(dexBonus)
+        
+        var conBonus:Int = (conScore.text! as NSString).integerValue
+        conBonus -= 10
+        conBonus /= 2
+        conBon.text = String(conBonus)
+        
+        var intBonus:Int = (intScore.text! as NSString).integerValue
+        intBonus -= 10
+        intBonus /= 2
+        intBon.text = String(intBonus)
+        
+        var wisBonus:Int = (wisScore.text! as NSString).integerValue
+        wisBonus -= 10
+        wisBonus /= 2
+        wisBon.text = String(wisBonus)
+        
+        var chaBonus:Int = (chaScore.text! as NSString).integerValue
+        chaBonus -= 10
+        chaBonus /= 2
+        chaBon.text = String(chaBonus)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
