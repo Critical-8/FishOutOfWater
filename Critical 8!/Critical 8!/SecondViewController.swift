@@ -30,32 +30,56 @@ class SecondViewController: UIViewController {
         var strBonus:Int = (strScore.text! as NSString).integerValue
         strBonus -= 10
         strBonus /= 2
-        strBon.text = String(strBonus)
+        if(strBonus < 0){
+            strBon.text = String(strBonus)
+        }else{
+            strBon.text = "+" + String(strBonus)
+        }
         
         var dexBonus:Int = (dexScore.text! as NSString).integerValue
         dexBonus -= 10
         dexBonus /= 2
-        dexBon.text = String(dexBonus)
+        if(dexBonus < 0){
+            dexBon.text = String(dexBonus)
+        }else{
+            dexBon.text = "+" + String(dexBonus)
+        }
         
         var conBonus:Int = (conScore.text! as NSString).integerValue
         conBonus -= 10
         conBonus /= 2
-        conBon.text = String(conBonus)
+        if(conBonus < 0){
+            conBon.text = String(conBonus)
+        }else{
+            conBon.text = "+" + String(conBonus)
+        }
         
         var intBonus:Int = (intScore.text! as NSString).integerValue
         intBonus -= 10
         intBonus /= 2
-        intBon.text = String(intBonus)
+        if(intBonus < 0){
+            intBon.text = String(intBonus)
+        }else{
+            intBon.text = "+" + String(intBonus)
+        }
         
         var wisBonus:Int = (wisScore.text! as NSString).integerValue
         wisBonus -= 10
         wisBonus /= 2
-        wisBon.text = String(wisBonus)
+        if(wisBonus < 0){
+            wisBon.text = String(wisBonus)
+        }else{
+            wisBon.text = "+" + String(wisBonus)
+        }
         
         var chaBonus:Int = (chaScore.text! as NSString).integerValue
         chaBonus -= 10
         chaBonus /= 2
-        chaBon.text = String(chaBonus)
+        if(chaBonus < 0){
+            chaBon.text = String(chaBonus)
+        }else{
+            chaBon.text = "+" + String(chaBonus)
+        }
         
         dismissKeyboard()
     }
