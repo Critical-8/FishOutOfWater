@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "731D5BDA1ECF407B008B4DC6"
+               BlueprintIdentifier = "73D2B9141ECF6DE3003B7686"
                BuildableName = "Critical 8!.app"
                BlueprintName = "Critical 8!"
                ReferencedContainer = "container:Critical 8!.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "731D5BF01ECF407B008B4DC6"
+               BlueprintIdentifier = "73D2B92A1ECF6DE3003B7686"
                BuildableName = "Critical 8!Tests.xctest"
                BlueprintName = "Critical 8!Tests"
                ReferencedContainer = "container:Critical 8!.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "731D5BFB1ECF407B008B4DC6"
+               BlueprintIdentifier = "73D2B9351ECF6DE4003B7686"
                BuildableName = "Critical 8!UITests.xctest"
                BlueprintName = "Critical 8!UITests"
                ReferencedContainer = "container:Critical 8!.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "731D5BDA1ECF407B008B4DC6"
+            BlueprintIdentifier = "73D2B9141ECF6DE3003B7686"
             BuildableName = "Critical 8!.app"
             BlueprintName = "Critical 8!"
             ReferencedContainer = "container:Critical 8!.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "731D5BDA1ECF407B008B4DC6"
+            BlueprintIdentifier = "73D2B9141ECF6DE3003B7686"
             BuildableName = "Critical 8!.app"
             BlueprintName = "Critical 8!"
             ReferencedContainer = "container:Critical 8!.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "731D5BDA1ECF407B008B4DC6"
+            BlueprintIdentifier = "73D2B9141ECF6DE3003B7686"
             BuildableName = "Critical 8!.app"
             BlueprintName = "Critical 8!"
             ReferencedContainer = "container:Critical 8!.xcodeproj">
