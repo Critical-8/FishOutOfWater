@@ -24,9 +24,10 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var wisBon: UILabel!
     @IBOutlet weak var chaScore: UITextField!
     @IBOutlet weak var chaBon: UILabel!
+
     
     //Update
-    @IBAction func updateScores(_ sender: Any) {
+    @IBAction func updateScores(_ sender: AnyObject?) {
         var strBonus:Int = (strScore.text! as NSString).integerValue
         strBonus -= 10
         strBonus /= 2
@@ -81,6 +82,14 @@ class SecondViewController: UIViewController {
             chaBon.text = "+" + String(chaBonus)
         }
         
+        //saves the scores for later
+        UserDefaults.standard.set(strScore.text, forKey: "str")
+        UserDefaults.standard.set(dexScore.text, forKey: "dex")
+        UserDefaults.standard.set(conScore.text, forKey: "con")
+        UserDefaults.standard.set(intScore.text, forKey: "int")
+        UserDefaults.standard.set(wisScore.text, forKey: "wis")
+        UserDefaults.standard.set(chaScore.text, forKey: "cha")
+        
         dismissKeyboard()
     }
     
@@ -100,6 +109,29 @@ class SecondViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        if let s = UserDefaults.standard.object(forKey: "str") as? String{
+            strScore.text =  s
+        }
+        if let d = UserDefaults.standard.object(forKey: "dex") as? String{
+            dexScore.text = d
+        }
+        if let c = UserDefaults.standard.object(forKey: "con") as? String{
+            conScore.text = c
+        }
+        if let i = UserDefaults.standard.object(forKey: "int") as? String{
+            intScore.text = i
+        }
+        if let w = UserDefaults.standard.object(forKey: "wis") as? String{
+            wisScore.text = w
+        }
+        if let ch = UserDefaults.standard.object(forKey: "cha") as? String{
+            chaScore.text = ch
+        }
+        
+        updateScores(nil)
     }
     
     func dismissKeyboard() {

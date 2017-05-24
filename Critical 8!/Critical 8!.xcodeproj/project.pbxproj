@@ -421,6 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 22EUL9F4BD;
 				INFOPLIST_FILE = "Critical 8!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.critical8.Critical-8-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 22EUL9F4BD;
 				INFOPLIST_FILE = "Critical 8!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.critical8.Critical-8-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +520,7 @@
 				73D2B9411ECF6DE4003B7686 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73D2B9421ECF6DE4003B7686 /* Build configuration list for PBXNativeTarget "Critical 8!Tests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +529,7 @@
 				73D2B9441ECF6DE4003B7686 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73D2B9451ECF6DE4003B7686 /* Build configuration list for PBXNativeTarget "Critical 8!UITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +538,7 @@
 				73D2B9471ECF6DE4003B7686 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
