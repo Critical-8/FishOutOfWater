@@ -1,21 +1,21 @@
 fileFormatVersion: 2
-guid: 023f6ac7b8051b64a8b0886beea9b42a
-timeCreated: 1497190445
+guid: 6866a5a2ae934384d953a717e19950d2
+timeCreated: 1497190701
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: fishRun_0
-    21300002: fishRun_1
-    21300004: fishRun_2
-    21300006: fishRun_3
-    21300008: fishRun_4
-    21300010: fishRun_5
-    21300012: fishRun_6
-    21300014: fishRun_7
-    21300016: fishRun_8
-    21300018: fishRun_9
-    21300020: fishRun_10
-    21300022: fishRun_11
+    21300000: sharkRun_0
+    21300002: sharkRun_1
+    21300004: sharkRun_2
+    21300006: sharkRun_3
+    21300008: sharkRun_4
+    21300010: sharkRun_5
+    21300012: sharkRun_6
+    21300014: sharkRun_7
+    21300016: sharkRun_8
+    21300018: sharkRun_9
+    21300020: sharkRun_10
+    21300022: sharkRun_11
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -63,33 +63,33 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: iPhone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,158 +98,158 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fishRun_0
+      name: sharkRun_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 62
-        height: 63
+        x: 3
+        y: 3
+        width: 226
+        height: 194
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fishRun_1
+      name: sharkRun_1
       rect:
         serializedVersion: 2
-        x: 66
-        y: 2
-        width: 58
-        height: 57
+        x: 240
+        y: 14
+        width: 223
+        height: 178
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fishRun_2
+      name: sharkRun_2
       rect:
         serializedVersion: 2
-        x: 129
-        y: 2
-        width: 58
-        height: 59
+        x: 480
+        y: 6
+        width: 223
+        height: 189
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fishRun_3
+      name: sharkRun_3
       rect:
         serializedVersion: 2
-        x: 194
-        y: 0
-        width: 58
-        height: 63
+        x: 717
+        y: 3
+        width: 226
+        height: 194
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fishRun_4
+      name: sharkRun_4
       rect:
         serializedVersion: 2
-        x: 261
-        y: 0
-        width: 58
-        height: 66
+        x: 957
+        y: 14
+        width: 226
+        height: 186
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fishRun_5
+      name: sharkRun_5
       rect:
         serializedVersion: 2
-        x: 326
-        y: 2
-        width: 58
-        height: 63
+        x: 1197
+        y: 14
+        width: 223
+        height: 183
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fishRun_6
+      name: sharkRun_6
       rect:
         serializedVersion: 2
-        x: 385
-        y: 0
-        width: 62
-        height: 63
+        x: 1431
+        y: 6
+        width: 226
+        height: 191
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fishRun_7
+      name: sharkRun_7
       rect:
         serializedVersion: 2
-        x: 450
-        y: 2
-        width: 58
-        height: 57
+        x: 1668
+        y: 14
+        width: 223
+        height: 178
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fishRun_8
+      name: sharkRun_8
       rect:
         serializedVersion: 2
-        x: 513
-        y: 2
-        width: 58
-        height: 59
+        x: 1908
+        y: 6
+        width: 223
+        height: 189
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fishRun_9
+      name: sharkRun_9
       rect:
         serializedVersion: 2
-        x: 578
-        y: 0
-        width: 58
-        height: 63
+        x: 2145
+        y: 3
+        width: 226
+        height: 194
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fishRun_10
+      name: sharkRun_10
       rect:
         serializedVersion: 2
-        x: 645
-        y: 0
-        width: 58
-        height: 66
+        x: 2385
+        y: 14
+        width: 226
+        height: 186
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: fishRun_11
+      name: sharkRun_11
       rect:
         serializedVersion: 2
-        x: 710
-        y: 2
-        width: 58
-        height: 63
+        x: 2625
+        y: 14
+        width: 223
+        height: 183
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
