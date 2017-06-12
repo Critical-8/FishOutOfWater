@@ -7,6 +7,8 @@ public var object2 : GameObject;
 public var itteration = true;
 public var distance : float;
 
+public var speed = 0.0;
+
 function Start () {
 	
 }
@@ -21,4 +23,7 @@ function Update () {
         object2.transform.position.x += 2 * distance;
         itteration = true;
     }
+    
+    object1.transform.position.x += speed / 60;
+    object2.transform.position.x += speed / 60;
 }
