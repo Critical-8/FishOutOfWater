@@ -2,29 +2,30 @@ Initialize engine version: 5.6.1f1 (2860b30f0b54)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
-    Vendor:   NVIDIA
-    VRAM:     2016 MB
-    Driver:   21.21.13.7653
+    Renderer: Intel(R) HD Graphics 530 (ID=0x1912)
+    Vendor:   Intel
+    VRAM:     1008 MB
+    Driver:   10.18.15.4279
 Begin MonoManager ReloadAssembly
-Platform assembly: H:\GitHub\FishOutOfWater\titleScreen_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading H:\GitHub\FishOutOfWater\titleScreen_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: H:\GitHub\FishOutOfWater\titleScreen_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading H:\GitHub\FishOutOfWater\titleScreen_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-Platform assembly: H:\GitHub\FishOutOfWater\titleScreen_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading H:\GitHub\FishOutOfWater\titleScreen_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: H:\GitHub\FishOutOfWater\titleScreen_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading H:\GitHub\FishOutOfWater\titleScreen_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: H:\GitHub\FishOutOfWater\titleScreen_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading H:\GitHub\FishOutOfWater\titleScreen_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.026 seconds
-Platform assembly: H:\GitHub\FishOutOfWater\titleScreen_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: H:\GitHub\FishOutOfWater\titleScreen_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+Platform assembly: C:\Users\mtang\Documents\GitHub\FishOutOfWater\titleScreen_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\mtang\Documents\GitHub\FishOutOfWater\titleScreen_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\mtang\Documents\GitHub\FishOutOfWater\titleScreen_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\mtang\Documents\GitHub\FishOutOfWater\titleScreen_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\mtang\Documents\GitHub\FishOutOfWater\titleScreen_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\mtang\Documents\GitHub\FishOutOfWater\titleScreen_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\mtang\Documents\GitHub\FishOutOfWater\titleScreen_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\mtang\Documents\GitHub\FishOutOfWater\titleScreen_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\mtang\Documents\GitHub\FishOutOfWater\titleScreen_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\mtang\Documents\GitHub\FishOutOfWater\titleScreen_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.018 seconds
+Platform assembly: C:\Users\mtang\Documents\GitHub\FishOutOfWater\titleScreen_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\mtang\Documents\GitHub\FishOutOfWater\titleScreen_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.123925 ms
+UnloadTime: 3.948826 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1ee7c -> priority: 1 
-  Thread -> id: 1dc80 -> priority: 1 
+  Thread -> id: 1328 -> priority: 1 
+  Thread -> id: 149c -> priority: 1 
