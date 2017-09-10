@@ -1,9 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\fishMove.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\progress.js">
     <Files>
-      <File FileName="Assets\Scripts\sharkMove.js" Line="25" Column="20" />
-      <File FileName="Assets\Scripts\fishMove.js" Line="18" Column="68" />
+      <File FileName="Assets\Scripts\sharkMove.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\fishMove.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\progress.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

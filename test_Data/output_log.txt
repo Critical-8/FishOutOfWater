@@ -1,0 +1,37 @@
+Mono path[0] = 'H:/GitHub/FishOutOfWater/test_Data/Managed'
+Mono path[1] = 'H:/GitHub/FishOutOfWater/test_Data/Mono'
+Mono config path = 'H:/GitHub/FishOutOfWater/test_Data/Mono/etc'
+PlayerConnection initialized from H:/GitHub/FishOutOfWater/test_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55016
+Multi-casting "[IP] 192.168.1.148 [Port] 55016 [Flags] 3 [Guid] 3704485789 [EditorId] 2258875413 [Version] 1048832 [Id] WindowsPlayer(mtang-pc) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [0.0.0.0:55016]...
+PlayerConnection accepted from [192.168.1.148] handle:0x408
+Started listening to [0.0.0.0:55016]
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56789
+PlayerConnection already initialized - listening to [0.0.0.0:55016]
+Player data archive not found at `H:/GitHub/FishOutOfWater/test_Data/data.unity3d`, using local filesystemInitialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Vendor:   NVIDIA
+    VRAM:     2017 MB
+    Driver:   22.21.13.8205
+Begin MonoManager ReloadAssembly
+Platform assembly: H:\GitHub\FishOutOfWater\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading H:\GitHub\FishOutOfWater\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: H:\GitHub\FishOutOfWater\test_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading H:\GitHub\FishOutOfWater\test_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: H:\GitHub\FishOutOfWater\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading H:\GitHub\FishOutOfWater\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: H:\GitHub\FishOutOfWater\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading H:\GitHub\FishOutOfWater\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: H:\GitHub\FishOutOfWater\test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading H:\GitHub\FishOutOfWater\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.426 seconds
+Platform assembly: H:\GitHub\FishOutOfWater\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: H:\GitHub\FishOutOfWater\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1200 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+Waiting for finish
