@@ -15,11 +15,14 @@ public var scoreCounter : UI.Text;
 
 public var tiles : GameObject[];
 
+public var scoreHolder : Transform;
+
 function Start () {
     
 }
 
 function Update () {
+    scoreHolder.position.x = currentScore;
     /*
         I didn't use just the integer counter because it would've counted too fast.
         Instead I used a float that counted up slower and then just trunkated it 
@@ -33,7 +36,7 @@ function Update () {
     var randomTile : int;
     //If one is before two, destroys one after the fish is far enough and makes a new one.
     if(oneBeforeTwo && fish.transform.position.x >= ground2.transform.position.x + (GroundLength/2)){
-        randomTile = (Random.Range(0,tiles.length+1));
+        randomTile = (Random.Range(1,tiles.length+1));
         
         Destroy(ground1);
         ground1 = Instantiate(tiles[randomTile-1], Vector3 (ground2.transform.position.x + GroundLength, 0, 0), Quaternion.identity);
@@ -41,7 +44,7 @@ function Update () {
     }
     //If two is before one, destroys two after the fish is far enough and makes a new two.
     if(!oneBeforeTwo && fish.transform.position.x >= ground1.transform.position.x + (GroundLength/2)){
-        randomTile = (Random.Range(0,tiles.length+1));
+        randomTile = (Random.Range(1,tiles.length+1));
         
         Destroy(ground2);
         ground2 = Instantiate(tiles[randomTile-1], Vector3 (ground1.transform.position.x + GroundLength, 0, 0), Quaternion.identity);

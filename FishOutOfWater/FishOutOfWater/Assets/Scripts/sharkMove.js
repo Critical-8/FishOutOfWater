@@ -1,5 +1,7 @@
 #pragma strict
 import UnityEngine.SceneManagement;
+import System;
+import System.IO;
 
 //variables
 public var timer = 0;
@@ -14,8 +16,12 @@ public var cruise = false;
 public var fish : GameObject;
 public var shark : GameObject;
 
+public var Scoreboard : UI.Text;
+public var highScore :UI.Text;
+
+public var scoreHolder : Transform;
+
 function Start () {
-	
 }
 
 function Update () {
@@ -45,5 +51,11 @@ function Update () {
 
 function OnTriggerEnter2D(other: Collider2D) {
     Destroy(fish);
+    
+    if(parseInt(Scoreboard.text) > parseInt(highScore.text)){
+        scoreHolder.position.z = 1;
+    }else{
+        scoreHolder.position.z = -1;
+    }
     SceneManager.LoadScene(0);
 }

@@ -1,5 +1,7 @@
 #pragma strict
 import UnityEngine.SceneManagement;
+import System;
+import System.IO;
 
 public var fish : GameObject;
 public var fishRigid : Rigidbody2D;
@@ -13,6 +15,10 @@ public var anim : Animator;
 public var testing = false;
 
 public var meter : float;
+public var Scoreboard: UI.Text;
+public var highScore: UI.Text;
+
+public var scoreHolder : Transform;
 
 function Start () {
     
@@ -34,6 +40,12 @@ function Update () {
     }
     
     if (Input.GetKey ("escape")) {
+        if(parseInt(Scoreboard.text) > parseInt(highScore.text)){
+            scoreHolder.position.z = 1;
+        }else{
+            scoreHolder.position.z = -1;
+        }
+        
         SceneManager.LoadScene(0);
     }
 }
