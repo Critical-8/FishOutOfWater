@@ -30,6 +30,8 @@ function Update () {
                 SceneManager.LoadScene(1);
             }else if(fishOption == 1){
                 SceneManager.LoadScene(3);
+            }else if(fishOption == 2){
+            	SceneManager.LoadScene(4);
             }
         }else if(currOption == 1){
             SceneManager.LoadScene(2);

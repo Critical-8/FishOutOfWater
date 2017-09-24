@@ -1,11 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\highloader.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\sharkMove.js">
     <Files>
-      <File FileName="Assets\Scripts\sharkMove.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\fishMove.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\sharkMove.js" Line="55" Column="28" />
+      <File FileName="Assets\Scripts\fishMove.js" Line="21" Column="36" />
       <File FileName="Assets\Scripts\progress.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\highloader.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\trophyHandler.cs" Line="38" Column="33" />
+      <File FileName="Assets\Scripts\charSelect.js" Line="73" Column="51" />
+      <File FileName="Assets\Scripts\selectScreen.cs" Line="18" Column="20" />
+      <File FileName="Assets\Scripts\titleScreen.js" Line="34" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

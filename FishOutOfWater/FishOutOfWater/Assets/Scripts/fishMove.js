@@ -20,6 +20,8 @@ public var highScore: UI.Text;
 
 public var scoreHolder : Transform;
 
+private var increment = 0.000001;
+
 function Start () {
     
 }
@@ -38,6 +40,8 @@ function Update () {
         fishRigid.AddForce(new Vector2(0, jumpPow   ), ForceMode2D.Impulse);
         testing = false;
     }
+
+    speed += increment;
     
     if (Input.GetKey ("escape")) {
         if(parseInt(Scoreboard.text) > parseInt(highScore.text)){

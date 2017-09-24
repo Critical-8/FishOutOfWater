@@ -21,6 +21,8 @@ public var highScore :UI.Text;
 
 public var scoreHolder : Transform;
 
+private var increment = 0.000001;
+
 function Start () {
 }
 
@@ -47,6 +49,10 @@ function Update () {
     if(timing){
 	   timer ++;
     }
+
+    fastSpeed += increment;
+    normSpeed += increment;
+    slowSpeed += increment;
 }
 
 function OnTriggerEnter2D(other: Collider2D) {

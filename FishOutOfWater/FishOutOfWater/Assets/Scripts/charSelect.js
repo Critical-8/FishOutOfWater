@@ -14,10 +14,13 @@ public var info : Transform;
 
 //fish & names
 public var goldfish : RuntimeAnimatorController;
-public var goldfishName = "Fish the Fish";
+public var goldfishName = "Fish the Fishboi";
 public var lfsl : AnimatorOverrideController;
 public var lfslName = "Long Fish Short Legs";
 public var lfslReq = 10000;
+public var sharpfish : AnimatorOverrideController;
+public var sharpfishName = "Sharp Fishboi";
+public var sharpfishReq = 20000;
 
 function Start () {
 	
@@ -33,9 +36,9 @@ function Update () {
         selection --;
     }
     if(selection < 0){
-        selection = 1;
+        selection = 2;
     }
-    if(selection > 1){
+    if(selection > 2){
         selection = 0;
     }
     
@@ -55,6 +58,19 @@ function Update () {
             if(highScore<lfslReq){
                 lock.sprite = lockS;
                 lockAmount.text = "" +lfslReq;
+            }else{
+                lock.sprite = null;
+                lockAmount.text = "";
+            }
+        }
+        if(selection == 2){
+            fish.runtimeAnimatorController = sharpfish;
+            currName.text = sharpfishName;
+            lastSelection = 1;
+            
+            if(highScore<sharpfishReq){
+                lock.sprite = lockS;
+                lockAmount.text = "" +sharpfishReq;
             }else{
                 lock.sprite = null;
                 lockAmount.text = "";

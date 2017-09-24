@@ -25,7 +25,7 @@ public class trophyHandler : MonoBehaviour {
         }
         
         //10000m Dash
-        if(scorer.position.x>=10000){
+        if(scorer.position.x == 10000){
 		GameJolt.API.Trophies.Unlock(82551, (bool success) => {
             if (success){
                 Debug.Log("Success!");
@@ -35,7 +35,7 @@ public class trophyHandler : MonoBehaviour {
         });
         }
         //20000m Dash
-        if(scorer.position.x>=20000){
+        if(scorer.position.x == 20000){
 		GameJolt.API.Trophies.Unlock(82566, (bool success) => {
             if (success){
                 Debug.Log("Success!");
